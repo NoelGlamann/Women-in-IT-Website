@@ -1,0 +1,160 @@
+/* Noel Glamann
+November 12, 2020 */
+
+body {
+	background-color: #9093A0;
+}
+
+/* HEADER */
+.header {
+	margin: auto;
+}
+
+.header h1{
+	display: block;
+	text-align: center;
+	font-size: 45px;
+	background-color: #EDF0FF;
+	padding: 30px;
+}
+
+/* INTRO */
+.intro {
+	background: #EDF1FF;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+
+
+
+
+
+/* NAVIGATION BAR */
+.nav {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.nav ul {
+	list-style-type: none;
+	background-color: #676A76;
+	border: solid 2px #3F4044;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li:last-child {
+	float: right;
+	margin-right: 20px;
+}
+
+.nav a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+	color: white;
+	font-size: 20px;
+}
+
+.nav a:hover {
+	background: #EDF0FF;
+	color: #676A76;
+}
+	
+
+/*STYLE CONTENT*/
+.content {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.content img {
+	display: block;
+	border: solid 2px grey;
+	height: 360px;
+	float: right;
+	margin-top: 29px;
+	margin-right: 60px;
+}
+
+.content h2 {
+	display:block;
+	width: 65%;
+	padding-left: 30px;
+	background: white;
+	border: solid 2px grey;
+	padding-top:10px;
+	padding-bottom: 10px;
+	font-family: Georgia, serif;
+	font-size: 35px;
+}
+	
+	
+/* SEPERATE CONTENT */
+.seperation {
+	display: block;
+	background: #EDF0FF;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom:1px;
+	border: solid 1px #D4D5D9;
+	height: 400px;
+	position: relative;
+}
+
+.seperation p {
+	margin-left: 30px;
+	width: 60%;
+}
+
+.bottomleft {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+/* FOOTER */
+.footer {
+	padding: 30px;
+	background-color: #676A76;
+	border: solid 2px #3F4044;
+	color: white;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
